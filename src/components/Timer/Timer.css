@@ -1,10 +1,10 @@
 .timer {
-	margin-top: 500px;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	margin-top: 100px;
 }
 
 .digits {
@@ -21,25 +21,16 @@
 	.digits {
 		font-size: 65px;
 	}
-	.timer {
-		margin-top: 300px;
-	}
 }
 
 @media (min-width: 376px) and (max-width: 767px){
 	.digits {
 		font-size: 80px;
 	}
-	.timer {
-		margin-top: 400px;
-	}
 }
 
 @media screen and (min-width: 768px){
 	.digits {
 		font-size: 180px;
-	}
-	.timer {
-		margin-top: 300px;
 	}
 }
